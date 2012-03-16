@@ -14,7 +14,7 @@ AC_PROG_LIBTOOL
 AC_CHECK_LIB([m], [main])
 
 # Checks for header files.
-AC_CHECK_HEADERS([stdlib.h string.h])
+AC_CHECK_HEADERS([malloc.h stdlib.h string.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 
